@@ -29,6 +29,7 @@ Display new cost of sandwich
             System.out.println("Regular $5.45");
         } else if (sandwichSize == 2) {
             totalPrice += priceTwo;
+            System.out.println("Large $8.95");
         }
         double studentdiscount = .1;
         double seniordiscount = .2;
